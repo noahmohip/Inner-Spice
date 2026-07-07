@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Inner Spice serves authentic Indian cuisine in Chicago — bold curries, fresh naan, and fragrant biryani for dine-in, takeout, and catering." />
+  <title>Inner Spice | Indian Cuisine</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="nav" id="site-nav">
+    <a class="brand" href="#"><img src="assets/logo.png" alt="Inner Spice logo"></a>
+    <nav class="links">
+      <a href="#menu">Menu</a>
+      <a href="#about">About</a>
+      <a href="#visit">Hours</a>
+      <a href="#catering">Catering</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <a class="nav-btn" href="#contact">Order Online</a>
+    <button class="hamburger" id="hamburger" aria-label="Open menu" aria-expanded="false" aria-controls="mobile-menu">
+      <span></span><span></span><span></span>
+    </button>
+  </header>
+
+  <nav class="mobile-menu" id="mobile-menu">
+    <a href="#menu">Menu</a>
+    <a href="#about">About</a>
+    <a href="#visit">Hours</a>
+    <a href="#catering">Catering</a>
+    <a href="#contact">Contact</a>
+    <a class="primary" href="#contact">Order Online</a>
+  </nav>
+
+  <main>
+    <section class="hero">
+      <div class="pattern left"></div>
+      <div class="hero-content">
+        <p class="eyebrow">Authentic Indian Cuisine</p>
+        <h1>Bold spices. Warm flavors. Made fresh daily.</h1>
+        <p class="subtext">Experience rich curries, fresh naan, fragrant biryani, and traditional recipes crafted with care.</p>
+        <div class="actions">
+          <a class="primary" href="#menu">View Menu</a>
+          <a class="secondary" href="#order">Order Online</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="menu" class="section menu-section">
+      <p class="eyebrow" data-reveal>Favorites</p>
+      <h2 data-reveal>Signature Dishes</h2>
+      <div class="cards">
+        <article data-reveal><h3>Butter Chicken</h3><p>Creamy tomato curry with tender chicken and warm spices.</p></article>
+        <article data-reveal><h3>Paneer Tikka Masala</h3><p>Charred paneer in a rich, flavorful masala sauce.</p></article>
+        <article data-reveal><h3>Chicken Biryani</h3><p>Fragrant basmati rice layered with herbs, spices, and chicken.</p></article>
+      </div>
+    </section>
+
+    <section id="about" class="split section">
+      <div data-reveal>
+        <p class="eyebrow">Our Story</p>
+        <h2>Food that feels like home.</h2>
+        <p>Inner Spice brings together traditional Indian recipes, slow-cooked sauces, fresh herbs, and hand-selected spices for a warm, memorable dining experience.</p>
+      </div>
+      <div class="feature-box" data-reveal>
+        <h3>Dine-In • Takeout • Catering</h3>
+        <p>Perfect for family dinners, parties, and events.</p>
+      </div>
+    </section>
+
+    <section id="visit" class="split section info-section">
+      <div data-reveal>
+        <p class="eyebrow">Hours</p>
+        <h2>When to find us.</h2>
+        <table class="hours-table">
+          <tr><td>Monday – Thursday</td><td>11:00 AM – 9:30 PM</td></tr>
+          <tr><td>Friday – Saturday</td><td>11:00 AM – 10:30 PM</td></tr>
+          <tr><td>Sunday</td><td>12:00 PM – 9:00 PM</td></tr>
+        </table>
+      </div>
+      <div class="info-card" data-reveal>
+        <h3>Visit The Restaurant</h3>
+        <p>Walk-ins welcome, or call ahead for takeout.</p>
+        <div class="address-line">
+          <svg viewBox="0 0 24 24" fill="none" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 12-9 12s-9-5-9-12a9 9 0 0 1 18 0Z"/><circle cx="12" cy="10" r="3"/></svg>
+          <span>2418 W Devon Ave, Chicago, IL</span>
+        </div>
+        <div class="address-line">
+          <svg viewBox="0 0 24 24" fill="none" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.127.96.362 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.338 1.85.573 2.81.7A2 2 0 0 1 22 16.92Z"/></svg>
+          <a href="tel:+17735551234">(773) 555-1234</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section testimonials">
+      <p class="eyebrow" data-reveal style="text-align:center">Reviews</p>
+      <h2 data-reveal style="text-align:center">What guests are saying</h2>
+      <div class="cards">
+        <article class="quote-card" data-reveal>
+          <p class="stars">★★★★★</p>
+          <p>The butter chicken tastes like it was made by someone's grandmother. Rich, comforting, and never too heavy.</p>
+          <p class="quote-name">— Priya M.</p>
+        </article>
+        <article class="quote-card" data-reveal>
+          <p class="stars">★★★★★</p>
+          <p>We had Inner Spice cater a work event and the biryani disappeared in twenty minutes. Ordering again.</p>
+          <p class="quote-name">— James T.</p>
+        </article>
+        <article class="quote-card" data-reveal>
+          <p class="stars">★★★★★</p>
+          <p>Warm room, warm staff, warmer food. Our new go-to spot for Friday takeout.</p>
+          <p class="quote-name">— Aisha K.</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="catering" class="cta">
+      <div class="pattern right"></div>
+      <h2 data-reveal>Bring Inner Spice to your next event.</h2>
+      <a class="primary" href="#contact" data-reveal>Request Catering</a>
+    </section>
+  </main>
+
+  <footer id="contact">
+    <div class="footer-brand">
+      <img src="assets/logo.png" alt="Inner Spice logo">
+      <p>Open Daily • Call to Order</p>
+      <p>Catering Available</p>
+    </div>
+    <div class="footer-col">
+      <h4>Explore</h4>
+      <a href="#menu">Menu</a>
+      <a href="#about">About</a>
+      <a href="#visit">Hours</a>
+      <a href="#catering">Catering</a>
+    </div>
+    <div class="footer-col">
+      <h4>Contact</h4>
+      <a href="tel:+17735551234">(773) 555-1234</a>
+      <p>2418 W Devon Ave, Chicago, IL</p>
+    </div>
+  </footer>
+  <p class="footer-bottom">© 2026 Inner Spice Indian Cuisine. All rights reserved.</p>
+
+  <script>
+    // Mobile menu toggle
+    const hamburger = document.getElementById('hamburger');
+    const mobileMenu = document.getElementById('mobile-menu');
+    hamburger.addEventListener('click', () => {
+      const isOpen = mobileMenu.classList.toggle('open');
+      hamburger.classList.toggle('open', isOpen);
+      hamburger.setAttribute('aria-expanded', isOpen);
+      hamburger.setAttribute('aria-label', isOpen ? 'Close menu' : 'Open menu');
+      document.body.style.overflow = isOpen ? 'hidden' : '';
+    });
+    mobileMenu.querySelectorAll('a').forEach(a => a.addEventListener('click', () => {
+      mobileMenu.classList.remove('open');
+      hamburger.classList.remove('open');
+      hamburger.setAttribute('aria-expanded', 'false');
+      hamburger.setAttribute('aria-label', 'Open menu');
+      document.body.style.overflow = '';
+    }));
+
+    // Shrink nav on scroll
+    const nav = document.getElementById('site-nav');
+    window.addEventListener('scroll', () => {
+      nav.classList.toggle('scrolled', window.scrollY > 40);
+    });
+
+    // Reveal-on-scroll
+    const revealEls = document.querySelectorAll('[data-reveal]');
+    if ('IntersectionObserver' in window) {
+      const observer = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+          if (entry.isIntersecting) {
+            entry.target.classList.add('in-view');
+            observer.unobserve(entry.target);
+          }
+        });
+      }, { threshold: 0.15 });
+      revealEls.forEach(el => observer.observe(el));
+    } else {
+      revealEls.forEach(el => el.classList.add('in-view'));
+    }
+  </script>
+</body>
+</html>
